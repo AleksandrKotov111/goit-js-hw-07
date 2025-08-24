@@ -22,4 +22,7 @@ function validSubmit(event) {
     }
 
     console.log(loginFormSafe);
+
+    loginForm.elements.email.value = "";
+    loginForm.elements.password.value = "";
 }
