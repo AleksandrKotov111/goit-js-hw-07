@@ -11,10 +11,6 @@ function validSubmit(event) {
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
 
-    console.log(emailValue);
-    console.log(passwordValue);
-    
-
     if (!emailValue || !passwordValue) {
         alert(`All form fields must be filled in`)
         return;
@@ -26,6 +22,4 @@ function validSubmit(event) {
     }
 
     console.log(loginFormSafe);
-
-    loginForm.reset()
 }
